@@ -1,21 +1,26 @@
-Cupcake app
-=================================
+#  Cupcake Ordering App
 
-This app contains an order flow for cupcakes with options for quantity, flavor, and pickup date.
-The order details get displayed on an order summary screen and can be shared to another app to
-send the order.
+A modern Android application built using **Jetpack Compose** that allows users to order cupcakes with multiple options like quantity, flavor, and pickup date.
 
+---
 
-Pre-requisites
---------------
-* Experience with Kotlin syntax.
-* How to create and run a project in Android Studio.
-* How to create composable functions 
+##  Features
 
+-  Select cupcake quantity (1, 6, 12)
+-  Choose flavor (Vanilla, Chocolate, Red Velvet, etc.)
+-  Select pickup date
+-  Dynamic price calculation
+-  Order summary screen
+-  Share order via other apps (Intent)
+-  Navigation with back stack support
 
-Getting Started
----------------
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+---
+
+##  Tech Stack
+
+- **Kotlin**
+- **Jetpack Compose**
+- **Navigation Compose**
+- **MVVM Architecture**
+- **StateFlow**
+- **Material 3 UI**
